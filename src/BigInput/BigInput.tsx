@@ -4,18 +4,12 @@ import { BigInputProps, BigInputState } from './BigInput.d'
 import Root from './styles'
 
 class BigInput extends React.PureComponent<BigInputProps, BigInputState> {
-	public state = {
-		emboss: '',
-	}
-
 	public onChangeHd = (event: React.ChangeEvent<HTMLInputElement>): void => {
-		this.setState({
-			emboss: event.target.value
-		})
+		this.props.changeEmboss(event.target.value)
 	}
 
 	public render() {
-		const { emboss } = this.state
+		const { emboss } = this.props
 
 		return (
 			<Root

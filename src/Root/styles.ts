@@ -7,6 +7,7 @@ export default styled.div`
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	flex-direction: column;
 
 	font-size: 8rem;
 	font-weight: 400;
@@ -15,5 +16,4 @@ export default styled.div`
 	font-family: 'Overpass Mono', monospace;
 
 	padding: 5rem;
-	border-radius: 1rem;
 `

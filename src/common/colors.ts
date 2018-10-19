@@ -5,13 +5,13 @@ export default createGlobalStyle`
 		--swan-white: #F5F6FA;
 		--hot-stone: #aaa69d;
 
-		--purple: #706FD3;
-		--liberty: #474787;
+		--purple: #9c88ff;
+		--liberty: #8c7ae6;
 
 		--summer-sky: #34ACE0;
 		--devil-blue: #227093;
 
-		--celestial-green: #33D9B2;
+		--celestial-green: #4cd137;
 		--palm-springs-splash: #218C74;
 
 		--red: #FF5252;
