@@ -2,7 +2,7 @@ import { createGlobalStyle } from 'styled-components'
 
 export default createGlobalStyle`
 	:root {
-		--swan-white: #F7F1E3;
+		--swan-white: #F5F6FA;
 		--hot-stone: #aaa69d;
 
 		--purple: #706FD3;
