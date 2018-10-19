@@ -1,9 +1,11 @@
 import * as React from 'react'
 
+import RootStyled from './styles'
+
 class Root extends React.PureComponent {
 	public render() {
 		return (
-			<div>Root</div>
+			<RootStyled>Root</RootStyled>
 		)
 	}
 }
