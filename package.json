@@ -1,7 +1,16 @@
 {
 	"name": "kohokuviointi",
-	"version": "0.1.0",
-	"private": true,
+	"version": "0.1.1",
+	"description": "👩 + 💳 = 💌",
+	"homepage": "https://github.com/Keireira/kohokuviointi",
+	"contributors": [
+		{
+			"name": "Alena Dzhukich",
+			"email": "github@alena.moe",
+			"url": "https://github.com/Keireira"
+		}
+	],
+	"license": "UNLICENSED",
 	"dependencies": {
 		"react": "^16.5.2",
 		"react-dom": "^16.5.2",
@@ -19,6 +28,7 @@
 		"@types/node": "^10.12.0",
 		"@types/react": "^16.4.18",
 		"@types/react-dom": "^16.0.9",
+		"@types/styled-components": "^4.0.1",
 		"typescript": "^3.1.3"
 	}
 }
