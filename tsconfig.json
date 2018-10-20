@@ -5,7 +5,7 @@
 		"module": "esnext",
 		"target": "esnext",
 		"lib": ["es6", "dom"],
-		"sourceMap": true,
+		"sourceMap": false,
 		"allowJs": true,
 		"noEmit": true,
 		"jsx": "react",
