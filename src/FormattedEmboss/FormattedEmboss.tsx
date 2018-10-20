@@ -11,7 +11,7 @@ class FormattedEmboss extends React.PureComponent<FormattedEmbossProps> {
 		copyToClipboard(emboss.toUpperCase())
 
 		this.props.addPush({
-			title: 'Copied!',
+			title: 'Copied',
 		})
 	}
 

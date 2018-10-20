@@ -6,7 +6,7 @@ import Root, { Content, Title } from './styles'
 class Push extends React.PureComponent<PushProps> {
 	public static defaultProps = {
 		children: '',
-		title: 'Copied!',
+		title: '',
 	}
 
 	private timerId: number;

@@ -21,9 +21,5 @@ export default createGlobalStyle`
 		--chilean-fire: #CD6133;
 
 		--mandarin-sorbet: #FFB142;
-		--alameda-ochre: #CC8E35;
-
-		--spiced-butternut: #FFDA79;
-		--desert: #CCAE62;
 	}
 `

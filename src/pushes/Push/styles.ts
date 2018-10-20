@@ -5,7 +5,7 @@ export const Title = styled.div`
 
 	text-align: center;
 	word-wrap: break-word;
-	font-size: 4rem;
+	font-size: 4.5rem;
 	line-height: 4.5rem;
 
 	padding: 4rem 2rem;
@@ -34,7 +34,7 @@ export default styled.div`
 
 	color: var(--swan-white);
 	font-family: 'Roboto', sans-serif;
-	background-color: var(--summer-sky);
+	background-color: var(--mandarin-sorbet);
 
 	cursor: pointer;
 	overflow: hidden;
