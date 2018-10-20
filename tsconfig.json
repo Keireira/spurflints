@@ -22,7 +22,7 @@
 		"suppressImplicitAnyIndexErrors": true,
 		"noUnusedLocals": true,
 		"paths": {
-			"@common": ["./src/common"],
+			"@common": ["./src/@common"],
 			"@helpers": ["./src/@helpers"]
 		}
 	},

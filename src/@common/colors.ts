@@ -8,7 +8,7 @@ export default createGlobalStyle`
 		--purple: #9c88ff;
 		--liberty: #8c7ae6;
 
-		--summer-sky: #34ACE0;
+		--summer-sky: #00a8ff;
 		--devil-blue: #227093;
 
 		--celestial-green: #4cd137;
