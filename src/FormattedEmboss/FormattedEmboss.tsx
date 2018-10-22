@@ -42,7 +42,7 @@ const formatEmboss = (initialEmboss: string): string => {
 }
 
 class FormattedEmboss extends React.PureComponent<FormattedEmbossProps> {
-	public static propTypes = {
+	public static defaultProps = {
 		emboss: '',
 	}
 
