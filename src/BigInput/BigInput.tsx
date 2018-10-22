@@ -7,7 +7,7 @@ const findRestrictedSymbols = (emboss: string): boolean => {
 	const regex = new RegExp(/[a-zA-Z\-\s]/g)
 	const matched = emboss.match(regex)
 
-	return Array.isArray(matched) ? matched.length === emboss.length : true;
+	return Array.isArray(matched) ? matched.length === emboss.length : !emboss.length;
 }
 
 class BigInput extends React.PureComponent<BigInputProps, BigInputState> {
